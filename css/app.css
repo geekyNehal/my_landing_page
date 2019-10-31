@@ -20,6 +20,11 @@ body {
   background-color: #212630;
   color: #fff; }
 
+.splitter-container {
+  padding: 40px 0 50px;
+  background-color: #FFFCFC;
+  text-align: center; }
+
 .row {
   display: flex;
   width: 100%;
@@ -131,6 +136,11 @@ body {
 
 .b-video-img {
   padding: 10px 0 20px; }
+
+.img-item {
+  display: inline-block;
+  margin: 0 30px 40px;
+  vertical-align: middle; }
 
 .img-list {
   margin: 0 -20px -40px;
