@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Slab", serif;
   font-size: 1rem;
-  line-height: 1.25rem; }
+  line-height: 1.25; }
 
 .container {
   padding-left: 15px;
@@ -77,6 +77,21 @@ body {
   font-family: "Roboto Slab", serif;
   padding-right: 25px;
   line-height: 1.7; }
+
+.b-card {
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #212630;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin-left: 5px; }
+  .b-card .b-title {
+    font-size: 27px;
+    font-weight: 700;
+    color: #FFFCFC;
+    margin: 0 0 15px; }
+    .b-card .b-title .b-video {
+      margin: 0 auto 15px; }
 
 .nav-header {
   padding: 0 0 10px;
